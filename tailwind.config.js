@@ -14,6 +14,7 @@ module.exports = {
 				},
 				zinc: {
 					200: "#E7E7EB",
+					500: "#6E707A",
 				},
 			},
 			fontFamily: {

@@ -17,6 +17,33 @@ h3 {
 	@apply text-zinc-200;
 }
 
+h1 {
+	@apply text-8xl;
+}
+
+h3 {
+	@apply text-4xl text-opacity-70;
+}
+
 p {
 	@apply text-zinc-200 text-opacity-70;
+}
+
+button {
+	@apply py-3 px-7 text-white bg-zinc-500 rounded-sm transition-all hover:brightness-90;
+}
+
+.bg-cloud-pattern {
+	background: linear-gradient(
+			rgba(30, 33, 58, 0.95) 100%,
+			rgba(30, 33, 58, 0.95) 100%
+		),
+		url("/cloud-background.png");
+	background-position: 50% 20%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.icon {
+	@apply w-5 h-5 text-zinc-200 text-opacity-70;
 }

@@ -1,7 +1,8 @@
 import { FC } from "react";
+import { WeatherStats } from "./weather-stats";
 
 export const Home: FC = () => {
 	return (
-		<h1>Hello world!</h1>
+		<WeatherStats />
 	);
 };
