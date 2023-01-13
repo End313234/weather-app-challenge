@@ -6,3 +6,17 @@ html,
 body {
 	@apply m-0 p-0;
 }
+
+body {
+	@apply bg-bluepurple-800;
+}
+
+h1,
+h2,
+h3 {
+	@apply text-zinc-200;
+}
+
+p {
+	@apply text-zinc-200 text-opacity-70;
+}
