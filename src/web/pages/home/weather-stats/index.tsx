@@ -8,7 +8,7 @@ export const WeatherStats: FC = () => {
 			<header className="flex items-center justify-between px-3">
 				<button>Search for places</button>
 				<button className="rounded-full p-3">
-					<MapPinIcon className="icon" />
+					<MapPinIcon className="!text-opacity-100 icon" />
 				</button>
 			</header>
 			<main className="w-full flex flex-col items-center justify-between px-0">
@@ -25,7 +25,7 @@ export const WeatherStats: FC = () => {
 						<h1>15</h1>
 						<h3 className="flex items-end">°C</h3>
 					</div>
-					<h3>Shower</h3>
+					<h3 className="text-opacity-70 text-4xl">Shower</h3>
 				</div>
 			</main>
 			<footer className="flex flex-col items-center mt-7 gap-3">

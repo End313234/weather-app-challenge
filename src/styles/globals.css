@@ -22,11 +22,11 @@ h1 {
 }
 
 h3 {
-	@apply text-4xl text-opacity-70;
+	@apply text-2xl font-medium;
 }
 
 p {
-	@apply text-zinc-200 text-opacity-70;
+	@apply text-zinc-200 text-opacity-70 font-medium;
 }
 
 button {
