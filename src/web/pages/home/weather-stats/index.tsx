@@ -20,7 +20,7 @@ export const WeatherStats: FC = () => {
 						height="150"
 					/>
 				</div>
-				<div className="flex flex-col gap-2">
+				<div className="flex flex-col gap-2 mt-10">
 					<div className="flex">
 						<h1 className="text-8xl font-normal">15</h1>
 						<h3 className="flex items-end">°C</h3>
@@ -28,7 +28,7 @@ export const WeatherStats: FC = () => {
 					<h3 className="text-opacity-70 text-4xl">Shower</h3>
 				</div>
 			</main>
-			<footer className="flex flex-col items-center mt-7 gap-3">
+			<footer className="flex flex-col items-center mt-16 gap-3">
 				<div className="flex gap-5">
 					<p>Today</p>
 					<p>•</p>
@@ -39,6 +39,20 @@ export const WeatherStats: FC = () => {
 					<p>Helsinki</p>
 				</div>
 			</footer>
+			<div className="flex items-end justify-end h-full">
+				<p className="text-center">
+					created by
+					{" "}
+					<a
+						href="https://github.com/End313234"
+						rel="noreferrer"
+						target="_blank"
+						className="underline font-bold font-credits"
+					>End313234</a>
+					{" "}
+					- devChallenges.io
+				</p>
+			</div>
 		</section>
 	)
 };
