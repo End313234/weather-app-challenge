@@ -9,13 +9,13 @@ export const Home: FC = () => {
 	const [temperatureScale, setTemperatureScale] = useState(0);
 
 	return (
-		<main className="flex">
+		<main className="flex flex-col xl:flex-row">
 			<WeatherStats />
 			<div className="mt-5 flex flex-col items-center px-10 gap-10">
 				<div className="flex items-end justify-end w-full">
 					<TemperatureScaleSelector scale={temperatureScale} toggleScale={setTemperatureScale} />
 				</div>
-				<div className="flex gap-4">
+				<div className="flex gap-4 flex-wrap items-center justify-center w-full xl:items-start xl:justify-start">
 					<FutureWeatherCard />
 					<FutureWeatherCard />
 					<FutureWeatherCard />

@@ -34,7 +34,7 @@ button {
 }
 
 progress {
-	@apply bg-yellow-300 rounded-full h-2 min-w-[20vw];
+	@apply bg-yellow-300 rounded-full h-2 w-[20vw] min-w-[8rem];
 }
 progress::-webkit-progress-bar {
 	@apply bg-zinc-200 rounded-full h-2;
@@ -44,6 +44,18 @@ progress::-webkit-progress-value {
 }
 progress::-moz-progress-bar {
 	@apply bg-yellow-300 rounded-full h-2;
+}
+
+::-webkit-scrollbar {
+	@apply w-1;
+}
+
+::-webkit-scrollbar-track {
+	@apply bg-bluepurple-800;
+}
+
+::-webkit-scrollbar-thumb {
+	@apply bg-bluepurple-500;
 }
 
 .bg-cloud-pattern {

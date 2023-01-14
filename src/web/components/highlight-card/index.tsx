@@ -29,7 +29,7 @@ export const HighlightCard: FC<HighlightCardProps> = ({ type }) => {
 	const cardType = cardTypes[type]
 
 	return (
-		<div className="bg-bluepurple-500 flex items-center gap-5 px-20 flex-1 py-5 justify-center flex-col rounded-sm transition-all hover:-translate-y-1">
+		<div className="bg-bluepurple-500 flex items-center gap-5 px-20 flex-1 min-w-full py-5 justify-center flex-col rounded-sm transition-all hover:-translate-y-1 xl:min-w-fit">
 			<h3 className="text-xl">{cardType.type}</h3>
 			<div className="flex">
 				<h1 className="text-7xl">10</h1>

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const WeatherStats: FC = () => {
 	return (
-		<section className="w-1/3 bg-bluepurple-500 py-5 flex flex-col gap-10">
+		<section className="bg-bluepurple-500 py-5 flex flex-col gap-10 w-screen xl:w-1/3">
 			<header className="flex items-center justify-between px-3">
 				<button>Search for places</button>
 				<button className="rounded-full p-3">
