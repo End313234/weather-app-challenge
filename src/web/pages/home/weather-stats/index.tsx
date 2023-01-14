@@ -22,7 +22,7 @@ export const WeatherStats: FC = () => {
 				</div>
 				<div className="flex flex-col gap-2">
 					<div className="flex">
-						<h1>15</h1>
+						<h1 className="text-8xl font-normal">15</h1>
 						<h3 className="flex items-end">°C</h3>
 					</div>
 					<h3 className="text-opacity-70 text-4xl">Shower</h3>

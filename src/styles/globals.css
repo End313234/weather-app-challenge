@@ -18,7 +18,7 @@ h3 {
 }
 
 h1 {
-	@apply text-8xl;
+	@apply text-3xl font-bold;
 }
 
 h3 {
@@ -31,6 +31,19 @@ p {
 
 button {
 	@apply py-3 px-7 text-white bg-zinc-500 rounded-sm transition-all hover:brightness-90;
+}
+
+progress {
+	@apply bg-yellow-300 rounded-full h-2 min-w-[20vw];
+}
+progress::-webkit-progress-bar {
+	@apply bg-zinc-200 rounded-full h-2;
+}
+progress::-webkit-progress-value {
+	@apply bg-yellow-300 rounded-full h-2;
+}
+progress::-moz-progress-bar {
+	@apply bg-yellow-300 rounded-full h-2;
 }
 
 .bg-cloud-pattern {
