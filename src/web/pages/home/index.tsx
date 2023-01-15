@@ -2,7 +2,7 @@ import { FC, useState } from "react";
 import { FutureWeatherCard } from "web/components/future-weather-card";
 import { HighlightCard } from "web/components/highlight-card";
 import { TemperatureScaleSelector } from "web/components/temperature-scale-selector";
-import { WeatherStats } from "./weather-stats";
+import { WeatherStats } from "web/components/weather-stats";
 
 export const Home: FC = () => {
 	// 0 for Celsius and 1 for Fahrenheit

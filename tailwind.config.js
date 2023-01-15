@@ -16,6 +16,9 @@ module.exports = {
 					200: "#E7E7EB",
 					500: "#6E707A",
 				},
+				indigo: {
+					700: "#3C47E9",
+				},
 			},
 			fontFamily: {
 				sans: "Raleway, sans-serif",
