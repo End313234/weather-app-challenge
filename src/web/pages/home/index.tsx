@@ -20,7 +20,7 @@ export const Home: NextPage<HomeProps> = ({ current, future }) => {
 
 	useEffect(() => {
 		if (!current) {
-			router.push("/?city=New%20York")
+			router.push("/?lat=45&lon=-122")
 		}
 		console.log(future)
 	});
@@ -34,7 +34,7 @@ export const Home: NextPage<HomeProps> = ({ current, future }) => {
 				<div className="flex items-end justify-end w-full">
 					<TemperatureScaleSelector scale={temperatureScale} toggleScale={setTemperatureScale} />
 				</div>
-				<div className="flex gap-[1rem] flex-wrap items-center justify-center w-full xl:items-start xl:justify-start">
+				<div className="flex gap-[1rem] flex-wrap items-center justify-center w-full xl:items-start xl:justify-start xl:gap-8">
 					{future?.map((element) => (
 						<FutureWeatherCard key={element.dt} currentDay={currentDay} dayData={element} />
 					))}

@@ -18,7 +18,7 @@ Home.getInitialProps = async (ctx) => {
 		`${process.env.NEXT_PUBLIC_BASE_API_URL}/forecast?lat=${lat}&lon=${lon}&units=metric&cnt=43&appid=${process.env.NEXT_PUBLIC_API_TOKEN}`
 	)
 
-	let iterator = new Date().getUTCDate()
+	let iterator = new Date().getUTCDate() + 1
 
 	const filteredFutureWeatherList = futureWeatherData.list.filter((element, index) => {
 		if (new Date(element.dt_txt).getUTCDate() === iterator) {
